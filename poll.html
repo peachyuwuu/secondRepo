@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinionsundersökning om djur</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Söta djur</a> | <a href="images.html">Bilder på pandor</a> | <a
+                href="poll.html">Opinionsundersökning</a>
+        </nav>
+    </header>
+
+    <figure>
+        <h1>Opinionsundersökning om djur</h1>
+
+        <!-- "Post" bör användas istället för "get" -->
+
+        <form action="poll.html" method="get">
+            <fieldset>
+                <legend>Välj ditt favoritdjur!</legend>
+
+                <!-- Använd "ol" -->
+
+                <label>
+                    <ol>
+                        <li><input type="radio" name="favoriteAnimal" id="cat" value="cat"> Katt</li>
+                </label>
+
+
+                <label>
+                    <li><input type="radio" name="favoriteAnimal" id="dog" value="dog"> Hund</li>
+                </label>
+
+
+                <label>
+                    <li><input type="radio" name="favoriteAnimal" id="snail" value="snail"> Snäcka</li>
+                </label>
+
+
+                <label>
+                    <li><input type="radio" name="favoriteAnimal" id="panda" value="panda"> Panda</li>
+                    </ol>
+                </label>
+
+
+
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Skicka">
+
+        </form>
+    </figure>
+
+    <figure>
+        <h1>Djuren!</h1>
+    </figure>
+
+    <br>
+
+    <figure>
+
+        <h2>Katt</h2>
+        <figcaption>
+            Loke sitter på soffan
+        </figcaption>
+        <img src="images/loke.png" alt="Loka på soffan" title="Loke sitter på soffan" width="400">
+
+    </figure>
+
+    <br>
+    <figure>
+        <h2>Hund</h2>
+        <figcaption>
+            Glad golden retriever
+        </figcaption>
+        <img src="images/Golden-Retriever.jpg" alt="Glad golden" title="Glad golden retriever" width="400">
+    </figure>
+
+    <br>
+    <figure>
+        <h2>Snäcka</h2>
+        <figcaption>
+            Lilla K på en växt
+        </figcaption>
+        <img src="images/lillaK.png" alt="Lilla K på en växt" title="Lilla K på en växt" width="400">
+    </figure>
+
+    <br>
+    <figure>
+        <h2>Panda</h2>
+        <figcaption>
+            Panda med sitt barn
+        </figcaption>
+        <img src="images/Panda-wielka-2-1.jpg" alt="Panda med sitt barn" title="Panda med sitt barn" width="400">
+    </figure>
+
+</body>
+
+</html>
